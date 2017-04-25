@@ -1,0 +1,86 @@
+$blue_template_black: #58595b;
+$blue_template_blue: #2eb8cf;
+
+a {
+	color: $blue_template_blue;
+}
+
+#sidebar-container {
+	#blue-template-header-container {
+		margin-bottom: 0em;
+	}	
+	#blue-template-content-container {
+		margin-bottom: 0em;
+		padding-bottom: 0em;
+	}	
+}
+
+#blue-template-header-container {
+	margin-bottom: -12em;
+	.sidebar-sample-item {
+		text-align: center;
+		.blue-template-header-container {
+			img {
+				width: 100%;
+				max-height: 50em;
+			}
+		}
+	}
+}
+#blue-template-content-container {
+	font-family: 'Work Sans', sans-serif;
+	color: $blue_template_black;
+	padding-bottom: 5em;
+	padding-top: 1em;
+	.sidebar-sample-item {
+		background: white;
+    	padding: 1em;
+	}
+	.blue-template-content-left {
+		background: white;
+		padding-top: 2em;
+		padding-left: 2em;
+		img {
+			width: 100%;
+		}
+		.blue-template-logo-container {
+		    padding-bottom: 0em;
+		    border-bottom: 3px solid black;
+		    margin-bottom: 1em;
+		}
+	}
+	.blue-template-content-right {
+		background: white;
+		padding-top: 2em;
+		padding-right: 2em;
+		.ungerboeck-content-top {
+			background: $blue_template_blue;
+			color: white;
+			padding: 0.7em 0.5em;
+		}
+		.ungerboeck-content-header {
+			color: $blue_template_blue;
+		}
+		.usi-body-button-item {
+			background: #eac43e;
+			color: white;
+			border: none;
+			text-transform: uppercase;
+			padding: 1em;
+		}
+	}
+}
+#blue-template-footer-container {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	height: 7em;
+	background: $blue_template_blue;
+	.blue-template-footer-container {
+		text-align: center;
+		padding-top: 1em;
+		text-transform: uppercase;
+		font-size: 0.9em;
+	}
+}
+
+

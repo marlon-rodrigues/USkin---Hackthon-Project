@@ -1,0 +1,102 @@
+$green_template_black: #58595b;
+$green_template_green: #2bb673;
+
+a {
+	color: $green_template_green;
+}
+
+#sidebar-container {
+	#green-template-content-container {
+		margin-bottom: 0em;
+		padding-bottom: 0em;
+	}	
+}
+
+#green-template-header-container {
+	.sidebar-sample-item {
+		text-align: center;
+		.green-template-header-container {
+			padding: 2em 0em;
+			margin-bottom: 4em;
+			.green-template-logo {
+				margin-bottom: 4em;
+				img {
+					width: auto;
+				}
+			}
+			.green-template-header {
+				img {
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+#green-template-content-container {
+	font-family: 'Open Sans', sans-serif;
+	color: $green_template_black;
+	padding-bottom: 5em;
+	padding-top: 1em;
+	.sidebar-sample-item {
+		background: white;
+    	padding: 1em;
+	}
+	.green-template-content-right {
+		background: white;
+		padding-top: 2em;
+		img {
+			width: auto;
+		}
+		.green-template-contact-title {
+			font-size: 1.1em;
+			margin-bottom: 0.5em;
+			margin-top: 0.5em;
+			font-family: 'Oswald', sans-serif;
+		}
+		.green-template-contact-name {
+			font-weight: bold;
+		}
+		.green-template-contact-job {
+			font-style: italic;
+		}
+		.green-template-contact-1 {
+		    border-bottom: 1px solid lightgray;
+    		padding: 0.5em 0em;
+		}
+		.green-template-contact-2 {
+			padding: 0.5em 0em;
+		}
+	}
+	.green-template-content-left {
+		background: white;
+		padding-top: 2em;
+		.ungerboeck-content-top {
+			background: $green_template_green;
+			color: white;
+			padding: 0.7em 0.5em;
+		}
+		.ungerboeck-content-header {
+			color: $green_template_green;
+		}
+		.usi-body-button-item {
+			background: #5a7e96;
+			color: white;
+			border: none;
+			text-transform: uppercase;
+			padding: 1em;
+		}
+	}
+}
+#green-template-footer-container {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	height: 7em;
+	background: $green_template_green;
+	.green-template-footer-container {
+		text-align: center;
+		padding-top: 1em;
+		text-transform: uppercase;
+		font-size: 0.9em;
+	}
+}
+

@@ -1,0 +1,130 @@
+$red_template_black: #58595b;
+$red_template_red: #ef4136;
+
+a {
+	color: $red_template_red;
+}
+
+#sidebar-container {
+	#red-template-content-container {
+		margin-bottom: 0em;
+		padding-bottom: 0em;
+	}	
+}
+
+#red-template-header-container {
+	.sidebar-sample-item {
+		text-align: center;
+		.red-template-header-container {
+			padding: 2em 0em;
+			margin-bottom: 2em;
+			.red-template-logo {
+				margin-bottom: 1em;
+				img {
+					width: auto;
+				}
+			}
+		}
+	}
+}
+#red-template-content-container {
+	font-family: 'Playfair Display', serif;
+	color: $red_template_black;
+	padding-bottom: 5em;
+	padding-top: 1em;
+	.sidebar-sample-item {
+		background: transparent;
+    	padding: 0em;
+	}
+	.red-template-content-right {
+		background: transparent;
+		padding-top: 2em;
+		img {
+			width: auto;
+		}
+		.red-template-contact-container {
+			text-align: center;
+			.red-template-contact-title {
+				font-size: 1.3em;
+				margin-bottom: 0em;
+				margin-top: 0em;
+				font-family: 'Oswald', sans-serif;
+				font-family: 'Playfair Display', serif;
+				background: white;
+				padding: 0.5em;
+    			font-weight: bold;
+			}
+			.red-template-contact-1, .red-template-contact-2 {
+				background: rgba(255,255,255,0.9);
+				padding: 0.5em 0em;
+				font-family: 'Oswald', sans-serif;
+				text-transform: uppercase;
+			}
+			.red-template-contact-job {
+				font-weight: bold;
+			}
+			.red-template-contact-email {
+				text-transform: lowercase;
+			}
+		}
+		.red-template-social-media-container {
+			margin-top: 1em;
+			img {
+				width: 100%;
+			}
+		}
+	}
+	.red-template-content-left {
+		background: transparent;
+		padding-top: 2em;
+		.ungerboeck-content-top {
+			background: $red_template_red;
+			color: white;
+			padding: 0.7em 0.5em;
+		}
+		.ungerboeck-content-header {
+			color: $red_template_red;
+			background: white;
+			margin-bottom: 0em;
+			padding: 0.5em 1em;
+			.event-title {
+				font-family: 'Playfair Display', serif;
+				font-weight: bold;
+				border: none;
+			}
+			.event-location, .event-date-time {
+				color: $red_template_black;
+				font-family: 'Oswald', sans-serif;
+			}
+		}
+		.ungerboeck-content-subheader {
+			background: rgba(255,255,255,0.9);
+			margin-bottom: 0em;
+			padding: 0.5em 1em;
+		}
+		.ungerboeck-content-body {
+			padding: 1em 1em 2em;
+			background: rgba(255,255,255,0.9);
+		}
+		.usi-body-button-item {
+			background: $red_template_red;
+			color: white;
+			border: none;
+			text-transform: uppercase;
+			padding: 1em;
+			font-family: 'Work Sans', sans-serif;
+		}
+	}
+}
+#red-template-footer-container {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	height: 7em;
+	background: #414042;
+	.red-template-footer-container {
+		text-align: center;
+		padding-top: 1em;
+		text-transform: uppercase;
+		font-size: 0.9em;
+	}
+}
